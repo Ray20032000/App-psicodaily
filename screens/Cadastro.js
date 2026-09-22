@@ -143,10 +143,10 @@ export default function Cadastro({ navigation }) {
 
 
                     <Pressable
-                        style={styles.botaoEnviar}
+                        style={styles.botaoCadastrar}
                         onPress={() => navigation.navigate("AtivarConta")}
                     >
-                        <Text style={styles.textoEnviar}>
+                        <Text style={styles.textoCadastrar}>
                             Cadastrar
                         </Text>
                     </Pressable>
