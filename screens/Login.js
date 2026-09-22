@@ -15,19 +15,19 @@ export default function Login({ navigation }) {
     return (
         <View style={styles.container}>
 
-            {/* Cartão branco */}
+
             <View style={styles.card}>
 
-                {/* Logo */}
+
                 <Image
                     source={require("../assets/Logo.png")}
                     style={styles.logo}
                 />
 
-                {/* Linha abaixo da logo */}
+
                 <View style={styles.linha} />
 
-                {/* Formulário */}
+
                 <View style={styles.formulario}>
 
                     <Text style={styles.titulo}>
@@ -38,7 +38,7 @@ export default function Login({ navigation }) {
                         Acesse sua conta para continuar
                     </Text>
 
-                    {/* E-mail */}
+
                     <View style={styles.campo}>
                         <Text style={styles.label}>
                             E-mail
@@ -52,7 +52,7 @@ export default function Login({ navigation }) {
                         />
                     </View>
 
-                    {/* Senha */}
+
                     <View style={styles.campo}>
                         <Text style={styles.label}>
                             Senha
@@ -64,11 +64,11 @@ export default function Login({ navigation }) {
                         />
                     </View>
 
-                    {/* Botão Login */}
+
                     <Pressable
                         style={styles.botaoLogin}
                         onPress={() => {
-                            // Coloque aqui a lógica de login
+
                         }}
                     >
                         <Text style={styles.textoLogin}>
@@ -76,7 +76,7 @@ export default function Login({ navigation }) {
                         </Text>
                     </Pressable>
 
-                    {/* Cadastro */}
+
                     <Text style={styles.textoCadastro}>
                         Não tem uma conta?
                     </Text>
@@ -86,6 +86,14 @@ export default function Login({ navigation }) {
                     >
                         <Text style={styles.linkCadastro}>
                             Cadastre-se!
+                        </Text>
+                    </Pressable>
+
+                    <Pressable
+                        onPress={() => navigation.navigate("EsqueciSenha")}
+                    >
+                        <Text style={styles.linkEsqueci}>
+                            Esqueci Minha Senha
                         </Text>
                     </Pressable>
 
@@ -115,10 +123,10 @@ const styles = StyleSheet.create({
         paddingTop: 18,
         paddingBottom: 25,
 
-        // Sombra no Android
+
         elevation: 5,
 
-        // Sombra no iOS
+
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -197,7 +205,7 @@ const styles = StyleSheet.create({
 
     botaoLogin: {
         height: 41,
-        backgroundColor: " #0D7CC4",
+        backgroundColor: "#004BAD",
         borderRadius: 22,
         alignItems: "center",
         justifyContent: "center",
@@ -228,5 +236,15 @@ const styles = StyleSheet.create({
         textAlign: "center",
         marginTop: 1,
     },
+
+    linkEsqueci: {
+        color: "#A8A8A8",
+        fontFamily: "Poppins",
+        fontSize: 11,
+        fontWeight: "bold",
+        textAlign: "center",
+        marginTop: 1,
+        textDecorationLine: "underline",
+    }
 
 });

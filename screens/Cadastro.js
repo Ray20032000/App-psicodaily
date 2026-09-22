@@ -33,16 +33,16 @@ export default function Cadastro({ navigation }) {
 
             <View style={styles.card}>
 
-                {/* Logo */}
+
                 <Image
                     source={require("../assets/Logo.png")}
                     style={styles.logo}
                 />
 
-                {/* Linha */}
+
                 <View style={styles.linha} />
 
-                {/* Formulário */}
+
                 <View style={styles.formulario}>
 
                     <Text style={styles.titulo}>
@@ -57,7 +57,7 @@ export default function Cadastro({ navigation }) {
                         profissional no PsicoDaily.
                     </Text>
 
-                    {/* Nome */}
+
                     <View style={styles.campo}>
                         <Text style={styles.label}>Nome:</Text>
                         <TextInput
@@ -66,7 +66,7 @@ export default function Cadastro({ navigation }) {
                         />
                     </View>
 
-                    {/* E-mail */}
+
                     <View style={styles.campo}>
                         <Text style={styles.label}>E-mail:</Text>
                         <TextInput
@@ -77,7 +77,7 @@ export default function Cadastro({ navigation }) {
                         />
                     </View>
 
-                    {/* Telefone */}
+
                     <View style={styles.campo}>
                         <Text style={styles.label}>Telefone:</Text>
                         <TextInput
@@ -86,7 +86,7 @@ export default function Cadastro({ navigation }) {
                         />
                     </View>
 
-                    {/* CPF */}
+
                     <View style={styles.campo}>
                         <Text style={styles.label}>CPF:</Text>
                         <TextInput
@@ -95,7 +95,7 @@ export default function Cadastro({ navigation }) {
                         />
                     </View>
 
-                    {/* Senha */}
+
                     <View style={styles.campo}>
                         <Text style={styles.label}>Senha:</Text>
                         <TextInput
@@ -104,7 +104,7 @@ export default function Cadastro({ navigation }) {
                         />
                     </View>
 
-                    {/* Confirmar senha */}
+
                     <View style={styles.campo}>
                         <Text style={styles.label}>
                             Confirmar senha:
@@ -116,7 +116,7 @@ export default function Cadastro({ navigation }) {
                         />
                     </View>
 
-                    {/* Foto de perfil */}
+
                     <View style={styles.fotoContainer}>
 
                         <Pressable
@@ -141,7 +141,7 @@ export default function Cadastro({ navigation }) {
 
                     </View>
 
-                    {/* Botão cadastrar */}
+
                     <Pressable style={styles.botaoCadastrar}>
                         <Text style={styles.textoCadastrar}>
                             Cadastrar
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
         width: "100%",
         maxWidth: 380,
         backgroundColor: "#FFFFFF",
-        borderRadius: 28,
+        borderRadius: 12,
         paddingHorizontal: 10,
         paddingTop: 12,
         paddingBottom: 8,
@@ -193,7 +193,7 @@ const styles = StyleSheet.create({
 
     linha: {
         height: 1,
-        backgroundColor: "#548DE5",
+        backgroundColor: "#004BAD",
         width: "70%",
         alignSelf: "center",
         marginTop: 5,
@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
 
     formulario: {
         borderWidth: 1,
-        borderColor: "#1764D1",
+        borderColor: "#004BAD",
         borderRadius: 10,
         paddingHorizontal: 7,
         paddingTop: 12,

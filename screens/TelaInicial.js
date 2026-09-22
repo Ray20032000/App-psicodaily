@@ -16,13 +16,13 @@ export default function TelaInicial() {
     return (
         <View style={styles.container}>
 
-            {/* Logo */}
+
             <Image
                 source={require("../assets/Logo.png")}
                 style={styles.logo}
             />
 
-            {/* Título e subtítulo */}
+
             <Text style={styles.titulo}>
                 Cuidar da sua mente
             </Text>
@@ -31,20 +31,20 @@ export default function TelaInicial() {
                 Nunca foi tão simples
             </Text>
 
-            {/* Descrição */}
+
             <Text style={styles.textinho}>
                 Conectamos você a psicólogos{"\n"}
                 especializados para te acompanhar{"\n"}
                 em cada passo da sua jornada.
             </Text>
 
-            {/* Ilustração */}
+
             <Image
                 source={require("../assets/Banner.png")}
                 style={styles.banner}
             />
 
-            {/* Benefícios */}
+
             <View style={styles.segurancas}>
 
                 <View style={styles.beneficio}>
