@@ -5,9 +5,9 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import TelaInicial from "./screens/TelaInicial";
 import Login from "./screens/Login";
 import Cadastro from "./screens/Cadastro";
-import EsqueciSenha from "./App-psicodaily/screens/EsqueciSenha";
-import AlterarSenha from "./App-psicodaily/screens/AlterarSenha";
-import AtivarConta from "./App-psicodaily/screens/AtivarConta";
+import EsqueciSenha from "./screens/EsqueciSenha";
+import AlterarSenha from "./screens/AlterarSenha";
+import AtivarConta from "./screens/AtivarConta";
 
 const Stack = createNativeStackNavigator();
 

@@ -31,23 +31,12 @@ export default function AtivarConta({ navigation }) {
                 <View style={styles.formulario}>
 
                     <Text style={styles.titulo}>
-                        Alterar Senha
+                        Ativar conta
                     </Text>
 
-
-
-                    <View style={styles.campo}>
-                        <Text style={styles.label}>
-                            E-mail
-                        </Text>
-
-                        <TextInput
-                            style={styles.input}
-                            inputMode="email"
-                            keyboardType="email-address"
-                            autoCapitalize="none"
-                        />
-                    </View>
+                    <Text style={styles.subtitulo}>
+                        Ative sua conta para ter acesso
+                    </Text>
 
                     <View style={styles.campo}>
                         <Text style={styles.label}>
@@ -60,29 +49,6 @@ export default function AtivarConta({ navigation }) {
                     </View>
 
 
-                    <View style={styles.campo}>
-                        <Text style={styles.label}>
-                            Nova Senha
-                        </Text>
-
-                        <TextInput
-                            style={styles.input}
-                            secureTextEntry={true}
-                        />
-                    </View>
-
-                    <View style={styles.campo}>
-                        <Text style={styles.label}>
-                            Confirmar Nova Senha
-                        </Text>
-
-                        <TextInput
-                            style={styles.input}
-                            secureTextEntry={true}
-                        />
-                    </View>
-
-
                     <Pressable
                         style={styles.botaoLogin}
                         onPress={() => {
@@ -90,7 +56,7 @@ export default function AtivarConta({ navigation }) {
                         }}
                     >
                         <Text style={styles.textoLogin}>
-                            Alterar Senha
+                            Ativar
                         </Text>
                     </Pressable>
 
@@ -215,7 +181,7 @@ const styles = StyleSheet.create({
 
     botaoLogin: {
         height: 41,
-        backgroundColor: " #0055B8",
+        backgroundColor: "#0D7CC4",
         borderRadius: 22,
         alignItems: "center",
         justifyContent: "center",

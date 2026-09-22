@@ -142,8 +142,11 @@ export default function Cadastro({ navigation }) {
                     </View>
 
 
-                    <Pressable style={styles.botaoCadastrar}>
-                        <Text style={styles.textoCadastrar}>
+                    <Pressable
+                        style={styles.botaoEnviar}
+                        onPress={() => navigation.navigate("AtivarConta")}
+                    >
+                        <Text style={styles.textoEnviar}>
                             Cadastrar
                         </Text>
                     </Pressable>
