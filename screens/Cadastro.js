@@ -164,12 +164,13 @@ const styles = StyleSheet.create({
         backgroundColor: "#E1F3FF",
         alignItems: "center",
         justifyContent: "center",
-        paddingHorizontal: 10,
+        paddingHorizontal: 5,
+        height: "100%"
     },
 
     card: {
         width: "100%",
-        maxWidth: 380,
+        minWidth: 390,
         backgroundColor: "#FFFFFF",
         borderRadius: 12,
         paddingHorizontal: 10,
@@ -210,6 +211,8 @@ const styles = StyleSheet.create({
         paddingHorizontal: 7,
         paddingTop: 12,
         paddingBottom: 8,
+        position: "relative",
+        alignItems: "center",
     },
 
     titulo: {
@@ -236,7 +239,7 @@ const styles = StyleSheet.create({
     label: {
         fontFamily: "Poppins",
         fontSize: 11,
-        fontWeight: "600",
+        fontWeight: "700",
         color: "#333333",
         marginLeft: 2,
         marginBottom: 2,
@@ -266,20 +269,21 @@ const styles = StyleSheet.create({
         backgroundColor: "#0055B8",
         borderRadius: 15,
         paddingHorizontal: 8,
-        height: 23,
+        height: 30,
         justifyContent: "center",
+        marginRight: 6
     },
 
     textoFoto: {
         color: "#FFFFFF",
         fontFamily: "Poppins",
-        fontSize: 8,
+        fontSize: 10,
         fontWeight: "bold",
     },
 
     fotoCirculo: {
-        width: 35,
-        height: 35,
+        width: 40,
+        height: 40,
         borderRadius: 20,
         backgroundColor: "#B0B0B0",
         alignItems: "center",
@@ -288,13 +292,13 @@ const styles = StyleSheet.create({
 
     fotoIcone: {
         color: "#E8E8E8",
-        fontSize: 20,
+        fontSize: 1,
     },
 
     botaoCadastrar: {
         backgroundColor: "#1288C9",
-        height: 28,
-        width: "75%",
+        height: 30,
+        width: "70%",
         alignSelf: "center",
         borderRadius: 18,
         alignItems: "center",
